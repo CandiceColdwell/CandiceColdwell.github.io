@@ -1,0 +1,31 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+  color: #FF48C3;
+  font-family: arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header {
+	background:gray;
+}
+
+hr {
+  width:800px;
+}
+
+p {
+  font-size:22px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+ul {
+	padding-left:1.25em;
+}
+#intro {
+	background: url("../images/stars.jpg");
+  	background-size: cover;
+  	background-repeat:no-repeat;
+  	height:80vh;
+}
