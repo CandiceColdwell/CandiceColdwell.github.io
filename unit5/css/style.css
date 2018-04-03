@@ -1,61 +1,26 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
 body {
-  color: #FF48C3;
+  color:#333;
   font-family: arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-
-
-
-header {
-/*	background:gray;*/
-background-color: #FFED74;
-border: 1px black solid;
-padding: 20px;
-}
-
-article {
-background-color: #E89C6C;
-border: 1px black solid;
-padding: 20px;
-
-}
-
-nav {
-  background-color: #E8C66A;
-border: 1px black solid;
-padding: 20px;
-}
-
-footer {
-background-color: #FF956C;
-border: 1px black solid;
-padding: 20px;
-}
-
-div {
-background-color: #FFE2B8;
-border: 1px black solid;
-padding: 20px;
-}
-
 section {
-background-color: #FFE2B8;
-border: 1px black solid;
-padding: 20px;
+  padding:4em 0;
 }
-
-hr {
-  width:800px;
+header {
+  background: #333;
 }
-
 p {
   font-size:22px;
 }
 h1 {
   font-weight: bold;
   font-size: 70px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.25);
+}
+h2, h3 {
+  color: #FF48C3;
 }
 ul {
 	padding-left:1.25em;
@@ -63,17 +28,16 @@ ul {
 
 #articleheader {
 	background: url("../images/stars.jpg");
-  	background-size: cover;
-  	background-repeat:no-repeat;
- 
-    padding: 20px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: #fff;
+	height: 80vh;
 }
-
+#articles {width: 1200px;margin: auto;}
 .column2 {
   width: 50%;
   float:left;
-  padding: 30px 30px 0px 30px;
-
+  padding: 2em;
 }
 
 .column2 p {
@@ -88,10 +52,9 @@ ul {
 }
 
 .column3 {
-  width: 33%;
-float: left;
-padding: 20px;
-
+  width: 33.33%;
+  float: left;
+  padding: 20px;
 }
 
 .column3 p {
@@ -102,9 +65,7 @@ padding: 20px;
 padding-left: 20px;
 }
 
-#article2 { 
-padding-top: 30px;
-}
+#article2 {padding-top: 30px;}
 
 footer p { 
   text-align: center;
@@ -114,4 +75,9 @@ footer p {
 
 footer { 
   margin-bottom:20px;
+}
+.clearfix:after {
+  content: "";
+  clear:both;
+  display:block;
 }
